@@ -1,0 +1,25 @@
+// base
+.page-callout {
+  height: 20rem;
+  background: url('/images/shared/page-callout-bg.jpg') no-repeat;
+  background-size: contain;
+
+  &:before {
+    content: '';
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background-image: -moz-linear-gradient( -60deg, rgb(211,84,0) 0%, rgb(248,148,6) 100%);
+    background-image: -webkit-linear-gradient( -60deg, rgb(211,84,0) 0%, rgb(248,148,6) 100%);
+    background-image: -ms-linear-gradient( -60deg, rgb(211,84,0) 0%, rgb(248,148,6) 100%);
+    opacity: 0.8;
+    position: absolute;
+  }
+}
+
+// gradients
+.promo-callout {
+
+}

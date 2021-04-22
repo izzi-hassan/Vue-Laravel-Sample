@@ -1,0 +1,271 @@
+// Base
+#sticky-top-bar, #editor-top-bar {
+  font-size: 2.4rem;
+  background: url('/images/shared/sticky-nav-bg.png') #FFF no-repeat;
+  background-size: contain;
+  padding: 2rem 4rem;
+
+  color: #333;
+
+  .top-bar-left .menu li.is-dropdown-submenu-parent a {
+    padding-right: 2.5rem;
+  }
+
+  .top-bar-title {
+    margin-top: 0;
+    margin-bottom: 0;
+  }
+
+  .mdl-button {
+    font-size: 2.4rem;
+    color: #FFF;
+
+    &:hover, &:active, &:focus {
+      background: $color-primary;
+    }
+
+    &.show-border {
+      border: 2px solid #FFF;
+
+      &:hover, &:active, &:focus {
+        border: 2px solid $color-primary;
+      }
+    }
+
+    &.fa-bars {
+      font-size: 4rem;
+    }
+  }
+
+  .mdl-button--icon {
+    border-radius: 0.4rem;
+  }
+
+  .nav-button-separator {
+    font-size: 4.4rem;
+    line-height: 1;
+    vertical-align: sub;
+    margin: 0 0 0 2rem;
+  }
+
+  .top-bar-left .menu li a {
+    color: #333;
+    font-size: 2rem;
+    text-transform: uppercase;
+    padding: 0 1.4rem;
+    margin: 0;
+
+    &:hover, &:active, &:focus, &.active {
+      text-decoration: underline;
+
+      .color-primary {
+      }
+    }
+  }
+
+  .nav-button-separator {
+    color: #666;
+  }
+
+  .menu-button, .search-button, .notifications-button, .add-new-button, .publish-button, .share-button {
+
+    i {
+      color: #666;
+    }
+
+    &:active, &:hover, &:focus {
+      color: #FFF;
+      i {
+        color: #FFF;
+      }
+    }
+  }
+
+  .add-new-button, .publish-button, .share-button {
+    color: #FFF;
+
+
+    i {
+      color: inherit;
+    }
+  }
+
+  .sign-in-button, .add-new-button, .publish-button, .share-button {
+    background: $color-primary;
+
+    &:active, &:hover, &:focus {
+    }
+  }
+
+  .share-button {
+    background: #666;
+    margin: 0 1rem;
+  }
+
+  &.is-stuck {
+    background: url('/images/shared/sticky-nav-bg.png') #FFF no-repeat;
+    background-size: contain;
+    width: 100%;
+
+    .logo {
+      height: 6rem;
+    }
+  }
+
+  .light-logo {
+    display: none;
+  }
+
+  .mdl-button .mdl-badge[data-badge]:after {
+    top: -8px;
+  }
+}
+
+#vue-app #sticky-top-bar {
+  .top-bar-right .menu-container {
+    display: none;
+
+    &.show {
+      display: inline-block;
+    }
+  }
+
+  .mdl-button .mdl-badge[data-badge]:after {
+    background: #ff4081;
+  }
+  button.user-button {
+    img {
+      max-height: 100%;
+      margin-right: 1rem;
+    }
+
+    i {
+      color: #00bad0;
+    }
+
+    &:hover, &:active, &:focus {
+      background: none;
+      border: 3px #eee;
+    }
+  }
+
+  .dropdown-pane {
+    background: #FFF;
+    font-size: 2rem;
+
+    h6 {
+      font-size: 2.2rem;
+      font-weight: bold;
+    }
+
+    .menu.vertical > li > a {
+      font-size: 2rem;
+      color: #555;
+    }
+  }
+}
+
+/*
+body.home {
+  #sticky-top-bar {
+    background: none;
+
+    .nav-button-separator {
+      color: #FFF;
+    }
+
+    .dark-logo {
+      display: none;
+    }
+
+    .light-logo {
+      display: inline-block;
+    }
+
+    .top-bar-left .menu li a {
+      color: #FFF;
+
+      &:hover, &:active, &:focus, &.active {
+        text-decoration: underline;
+
+        .color-primary {
+        }
+      }
+    }
+
+    i {
+      color: #FFF;
+    }
+
+    .mdl-button {
+      background: none;
+
+      &:hover, &:active, &:focus {
+        background: $color-primary;
+      }
+
+      &.show-border {
+        border: 2px solid #FFF;
+
+        &:hover, &:active, &:focus {
+          border: 2px solid $color-primary;
+        }
+      }
+
+      &.fa-bars {
+        font-size: 4rem;
+      }
+    }
+
+    &.is-stuck {
+      background: url('/images/shared/sticky-nav-bg.png') #FFF no-repeat;
+      background-size: contain;
+
+      width: 100%;
+
+      .top-bar-left .menu li a {
+        color: #333;
+
+        &:active, &:hover, &:focus {
+          text-decoration: underline;
+        }
+      }
+
+      .dark-logo {
+        display: inline-block;
+      }
+
+      .light-logo {
+        display: none;
+      }
+
+      .sign-in-button {
+        background: $color-primary;
+      }
+
+      .nav-button-separator {
+        color: #666;
+      }
+
+      .menu-button, .search-button {
+        i {
+          color: #666;
+        }
+
+        &:active, &:hover, &:focus {
+          i {
+            color: #FFF;
+          }
+        }
+      }
+
+      .sign-in-button {
+        background: $color-primary;
+
+        &:active, &:hover, &:focus {
+
+        }
+      }
+    }
+  }
+}*/

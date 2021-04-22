@@ -1,0 +1,34 @@
+.feed-container {
+	padding: 4.3rem 1.4rem;
+	background: #FFF;
+
+	h1.section-title {
+		margin-bottom: 1rem;
+	}
+
+	.card-feed {
+		margin: 0;
+
+		.content-card {
+			border-radius: 0.5rem;
+			background: #FEFEFE;
+			border: 1px solid #EEEEEE;
+
+			cursor: pointer;
+			margin-top: 3rem;
+
+			.cover-image {
+			    background-position: center center;
+			    background-size: cover;
+			}
+
+			&.medium-4 {
+
+			}
+
+			&.medium-8 {
+
+			}
+		}
+	}
+}

@@ -1,0 +1,66 @@
+
+/*
+    small: 0,       // Mobile
+    medium: 600px,  // Tablet
+    large: 1170px,  // Widescreen
+    xlarge: 1440px,
+    xxlarge: 1920px,
+*/
+@media screen and (max-width: 600px) {
+  #sticky-top-bar .top-bar-right {
+    flex: 0;
+  }
+
+  .story .story-text span {
+    display: inline-block;
+    margin: 2em 0;
+    text-align: center;
+  }
+}
+
+@media screen and (max-width: 715px) {
+  #vue-app {
+    #sticky-top-bar-container {
+
+      .sticky-top-bar {
+
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 830px) {
+  #vue-app {
+    #sticky-top-bar-container {
+
+      .sticky-top-bar {
+        .add-new-button {
+          display: none;
+        }
+
+        .menu-button i {
+          font-size: 3rem;
+        }
+
+        .mdl-button {
+          font-size: 2rem;
+        }
+
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 1170px) {
+  h1 {
+    font-size: 5vh;
+    margin-top: 25vmin;
+  }
+
+  #offcanvas-menu ul li a {
+    text-align: center;
+    font-size: 5vmin;
+    padding-top: 1em;
+    padding-bottom: 1em;
+  }
+}

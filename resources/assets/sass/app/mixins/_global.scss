@@ -1,0 +1,24 @@
+@mixin black-bg($trueblack: false) {
+  background: $black;
+
+  @if $trueblack {
+    background: #000;
+  }
+}
+
+//
+@mixin white-bg($truewhite: false) {
+  background: $white;
+
+  @if $truewhite {
+    background: #FFF;
+  }
+}
+
+@mixin gray-bg ($defaultgray: false) {
+  background: $medium-gray;
+
+  @if $defaultgray {
+    background: #666;
+  }
+}

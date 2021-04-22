@@ -1,0 +1,33 @@
+.content-control-widget-container {
+  padding: 2rem;
+  background:#FCFCFC;
+  border-top: 1px solid #eee;
+  border-bottom: 1px solid #eee;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+
+  .avatar {
+    width: 6rem;
+    height: 6rem;
+    margin-right: 3rem;
+  }
+
+  .author-name a {
+    color: #333333;
+    font-family: Roboto;
+    font-size: 1.6rem;
+    font-weight: bold;
+
+    &:hover {
+      color: #00BAD0;
+    }
+  }
+
+  .author-description {
+    color: #999
+  }
+
+  .bookmarks-button {
+    margin-top: -7.8rem;
+  }
+}

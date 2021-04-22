@@ -1,0 +1,26 @@
+#vue-app {
+
+  .mdl-textfield {
+    width: 100%;
+
+    .mdl-textfield__input, .mdl-textfield__label {
+      border-bottom: none;
+      font-family: Lato;
+      font-size: 2rem;
+      color: #333333;
+      weight: bold;
+      line-height: 1;
+    }
+
+    .mdl-textfield__label {
+      color: #E5E5E5;
+    }
+
+    &.is-focused, &.is-dirty {
+      .mdl-textfield__label {
+        font-size: 1.6rem !important;
+        color: #00bad0 !important;
+      }
+    }
+  }
+}

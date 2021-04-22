@@ -1,0 +1,105 @@
+
+body.login {
+  background: url('/images/login/login-bg.jpg') no-repeat center center;
+  background-size: cover;
+
+  #sticky-top-bar {
+    .menu-button {
+      i {
+        color: #666666;
+      }
+
+      &:hover, &:active, &:focus {
+        i {
+          color: #FFF;
+        }
+      }
+    }
+
+    .dark-logo {
+      display: inline-block;
+    }
+  }
+
+  .slim-footer {
+
+    width: 100%;
+  }
+
+  #offcanvas-sign-in {
+    @include menu-base;
+    @include menu-direction(vertical);
+
+    padding: 3rem 0 5rem;
+
+    > .row > .columns {
+
+      background: url('/images/visitor/home/login-bg.jpg') no-repeat bottom center;
+      background-size: contain;
+      padding: 3rem 0;
+      background-color: #FFF;
+
+      border-radius: 0.5rem;
+    }
+
+    p {
+      font-family: "Roboto", sans-serif;
+      font-size: 1.6rem;
+      font-weight: normal;
+      color: #666;
+      margin: 2rem 0;
+
+      a {
+        color: $color-primary;
+      }
+    }
+
+    .providers-list {
+      li {
+        list-style: none;
+      }
+
+      a {
+        display: block;
+        padding: 2rem 6rem;
+        color: #FFF;
+        font-size: 2.4rem;
+        font-weight: bold;
+        border-radius: 0.5rem;
+        margin: 1rem 0;
+        max-width: 50rem;
+        line-height: 1;
+
+        i {
+          float: left;
+          display: block;
+          color: #FFF;
+          font-size: 4rem;
+          min-width: 4rem;
+          margin-right: 5rem;
+        }
+
+        span.graphic-link-under-text {
+          display: block;
+          font-size: 1.4rem;
+
+          span.text-emphasis {
+            text-decoration: underline;
+            font-style: italic;
+          }
+        }
+
+        &.twitter-bg {
+          background: $social-brand-twitter;
+        }
+        &.fb-bg {
+          background: $social-brand-facebook;
+        }
+        &.linked-in-bg {
+          background: $social-brand-linkedin;
+        }
+      }
+    }
+  }
+
+}

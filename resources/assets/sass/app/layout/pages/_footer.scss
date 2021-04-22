@@ -1,0 +1,36 @@
+.deep-footer {
+  padding: 12rem 0;
+
+  // TODO: figure out gradient on this
+  background: url('/images/shared/deep-footer-bg.png') #666 no-repeat bottom center;
+  background-size: contain;
+
+  ul {
+    float: left;
+    padding: 0 0 0 2rem;
+  }
+
+  ul.no-left-padding {
+    padding-left: 0;
+  }
+
+  h6 {
+    font-family: "Roboto";
+    font-size: 2rem;
+    font-weight: bold;
+    color: #FFF;
+  }
+}
+
+.slim-footer {
+  padding: 4rem 0;
+
+  a {
+    display: inline-block;
+    margin-left: 1rem;
+
+    &:active, &:hover, &:focus {
+      text-decoration: underline;
+    }
+  }
+}

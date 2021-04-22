@@ -1,0 +1,87 @@
+body.page {
+  background: #FCFCFC;
+  color: #FFF;
+
+
+
+  .sub-nav {
+    padding: 0.5rem 0;
+  }
+
+  .page-content-container {
+    padding: 0;
+
+    .header {
+      height: 50rem;
+      background: url('/images/pages/cover-images/mockup.jpg') no-repeat top center;
+
+      background-size: cover;
+      -webkit-clip-path: polygon(0 0, 100% 0, 100% 100%, 0 55%);
+      clip-path: polygon(0 0, 100% 0, 100% 100%, 0 55%);
+
+      .gradient-container {
+        position: relative;
+        width: 100%;
+        height: 100%;
+        /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#1e5799+0,7db9e8+100&0.7+0,0.7+100 */
+        background: -moz-linear-gradient(-45deg, rgba(105, 111, 148, 0.7) 0%, rgba(75, 206, 221, 0.7) 100%); /* FF3.6-15 */
+        background: -webkit-linear-gradient(-45deg, rgba(105, 111, 148, 0.7) 0%, rgba(75, 206, 221, 0.7) 100%); /* Chrome10-25,Safari5.1-6 */
+        background: linear-gradient(135deg, rgba(105, 111, 148, 0.7) 0%, rgba(75, 206, 221, 0.7) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+        filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#b31e5799', endColorstr='#b37db9e8', GradientType=1); /* IE6-9 fallback on horizontal gradient */
+
+        .columns:first-child {
+          margin-top: 3rem;
+        }
+      }
+
+    }
+  }
+
+}
+
+body.home {
+  background: url('/images/visitor/home/bg.jpg') no-repeat;
+  background-size: cover;
+  color: #FFF;
+
+  .heading-row {
+    padding: 7rem 0 25rem;
+
+    h1 {
+      display: inline;
+
+      font-family: "Lato";
+      font-size: 5rem;
+      line-height: 1.4;
+      background: rgba(22,22,22,0.7);
+      box-shadow: 10px 0 0 rgba(22,22,22,0.7), -10px 0 0 rgba(22,22,22,0.7);
+      margin: 0;
+      color: #FFF;
+      font-weight: normal;
+      padding: 0.5rem;
+    }
+
+    p.sub-heading {
+      display: inline-block;
+      font-family: "Lato";
+      font-size: 2.8rem;
+      font-style: italic;
+      color: #FFF;
+      margin-top: 4rem;
+      line-height: 1.5;
+    }
+
+    .mdl-button {
+      background: $color-primary;
+      color: #FFF;
+
+      font-size: 2.4rem;
+      font-weight: normal;
+      font-family: "Roboto";
+      padding: 2rem 9.5rem;
+      text-align: center;
+      margin-top: 4rem;
+      line-height: 0;
+    }
+  }
+}

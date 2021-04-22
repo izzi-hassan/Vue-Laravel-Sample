@@ -1,0 +1,86 @@
+#vue-app {
+  .create-content-view {
+    .mdl-textfield {
+      &#title {
+        .mdl-textfield__input, .mdl-textfield__label {
+          font-size: 6.4rem;
+        }
+        .mdl-text-field__label {
+          color: #999;
+        }
+      }
+
+      &#optional-subtitle {
+        .mdl-textfield__input, .mdl-textfield__label {
+          font-style: italic;
+          font-size: 3.2rem;
+        }
+      }
+    }
+  }
+
+  .read-content-view {
+    background: none !important;
+
+    .callout-container {
+      background: #000;
+      color: #FFF;
+      font-size: 1.8rem;
+      padding: 1.5rem;
+    }
+
+    .cover-image-container {
+      height: 31rem;
+      background-repeat: no-repeat;
+      background-size: cover;
+      background-position: center center;
+    }
+
+    .content-container {
+      background: #FFF;
+    }
+
+    h1.title {
+      color: #333333;
+      font-family: Lato;
+      font-size: 6.4rem;
+      font-weight: bold;
+      line-height: 7.4rem;
+      margin: 5.3rem 0 3.4rem;
+    }
+
+    h2.subtitle {
+      color: #999999;
+
+      font-family: Roboto;
+      font-size: 1.5rem;
+      font-style: italic;
+      font-weight: bold;
+      line-height: 3rem;
+      text-align: center;
+      margin: 1rem 0 0;
+    }
+
+    .content-data-container {
+      font-size: 1.6rem;
+      color: #999;
+
+      button.channel-button {
+        margin-left: 4rem;
+      }
+    }
+
+    .content-description-container {
+      color: #333333;
+      font-family: Roboto;
+      font-size: 2rem;
+      font-weight: bold;
+      line-height: 3.2rem;
+      margin: 6rem 0 0;
+    }
+
+    .content-text-container {
+      margin: 6rem 0 0;
+    }
+  }
+}
